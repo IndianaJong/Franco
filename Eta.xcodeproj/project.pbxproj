@@ -12,6 +12,14 @@
 		A0C1C2D51E0993A800A2D111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C1C2D31E0993A800A2D111 /* Main.storyboard */; };
 		A0C1C2D71E0993A800A2D111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C1C2D61E0993A800A2D111 /* Assets.xcassets */; };
 		A0C1C2DA1E0993A800A2D111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C1C2D81E0993A800A2D111 /* LaunchScreen.storyboard */; };
+		A0C1C2E31E09969B00A2D111 /* EatalyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C1C2E21E09969B00A2D111 /* EatalyService.swift */; };
+		A0C1C2E51E09972F00A2D111 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C1C2E41E09972F00A2D111 /* Services.swift */; };
+		A0C1C2E71E09975200A2D111 /* CategoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C1C2E61E09975200A2D111 /* CategoryManager.swift */; };
+		A0C1C2E91E09979800A2D111 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C1C2E81E09979800A2D111 /* Category.swift */; };
+		A0C1C2EB1E0997E500A2D111 /* MyTableFirstImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C1C2EA1E0997E500A2D111 /* MyTableFirstImageCell.swift */; };
+		A0C1C2ED1E0997F700A2D111 /* MyTableSecondImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C1C2EC1E0997F700A2D111 /* MyTableSecondImageCell.swift */; };
+		A0C1C2EF1E09980300A2D111 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C1C2EE1E09980300A2D111 /* MyTableViewCell.swift */; };
+		A0C1C2F11E09985900A2D111 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C1C2F01E09985900A2D111 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		A0C1C2D61E0993A800A2D111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0C1C2D91E0993A800A2D111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0C1C2DB1E0993A800A2D111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C1C2E21E09969B00A2D111 /* EatalyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EatalyService.swift; sourceTree = "<group>"; };
+		A0C1C2E41E09972F00A2D111 /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		A0C1C2E61E09975200A2D111 /* CategoryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryManager.swift; sourceTree = "<group>"; };
+		A0C1C2E81E09979800A2D111 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		A0C1C2EA1E0997E500A2D111 /* MyTableFirstImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableFirstImageCell.swift; sourceTree = "<group>"; };
+		A0C1C2EC1E0997F700A2D111 /* MyTableSecondImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableSecondImageCell.swift; sourceTree = "<group>"; };
+		A0C1C2EE1E09980300A2D111 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		A0C1C2F01E09985900A2D111 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,30 @@
 		A0C1C2CE1E0993A800A2D111 /* Eta */ = {
 			isa = PBXGroup;
 			children = (
+				A0C1C2E11E09967700A2D111 /* Connection classes */,
 				A0C1C2CF1E0993A800A2D111 /* AppDelegate.swift */,
-				A0C1C2D11E0993A800A2D111 /* ViewController.swift */,
 				A0C1C2D31E0993A800A2D111 /* Main.storyboard */,
 				A0C1C2D61E0993A800A2D111 /* Assets.xcassets */,
 				A0C1C2D81E0993A800A2D111 /* LaunchScreen.storyboard */,
 				A0C1C2DB1E0993A800A2D111 /* Info.plist */,
+				A0C1C2D11E0993A800A2D111 /* ViewController.swift */,
+				A0C1C2EA1E0997E500A2D111 /* MyTableFirstImageCell.swift */,
+				A0C1C2EC1E0997F700A2D111 /* MyTableSecondImageCell.swift */,
+				A0C1C2EE1E09980300A2D111 /* MyTableViewCell.swift */,
+				A0C1C2F01E09985900A2D111 /* SwiftyJSON.swift */,
 			);
 			path = Eta;
+			sourceTree = "<group>";
+		};
+		A0C1C2E11E09967700A2D111 /* Connection classes */ = {
+			isa = PBXGroup;
+			children = (
+				A0C1C2E21E09969B00A2D111 /* EatalyService.swift */,
+				A0C1C2E41E09972F00A2D111 /* Services.swift */,
+				A0C1C2E61E09975200A2D111 /* CategoryManager.swift */,
+				A0C1C2E81E09979800A2D111 /* Category.swift */,
+			);
+			name = "Connection classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +168,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0C1C2E71E09975200A2D111 /* CategoryManager.swift in Sources */,
 				A0C1C2D21E0993A800A2D111 /* ViewController.swift in Sources */,
+				A0C1C2E51E09972F00A2D111 /* Services.swift in Sources */,
+				A0C1C2F11E09985900A2D111 /* SwiftyJSON.swift in Sources */,
 				A0C1C2D01E0993A800A2D111 /* AppDelegate.swift in Sources */,
+				A0C1C2ED1E0997F700A2D111 /* MyTableSecondImageCell.swift in Sources */,
+				A0C1C2EF1E09980300A2D111 /* MyTableViewCell.swift in Sources */,
+				A0C1C2E31E09969B00A2D111 /* EatalyService.swift in Sources */,
+				A0C1C2EB1E0997E500A2D111 /* MyTableFirstImageCell.swift in Sources */,
+				A0C1C2E91E09979800A2D111 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
