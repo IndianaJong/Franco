@@ -70,6 +70,7 @@
 		A0C1C2CE1E0993A800A2D111 /* Eta */ = {
 			isa = PBXGroup;
 			children = (
+				E1A25DC71E9659DC00CB703D /* Models */,
 				A0C1C2E11E09967700A2D111 /* Connection classes */,
 				A0C1C2CF1E0993A800A2D111 /* AppDelegate.swift */,
 				A0C1C2D31E0993A800A2D111 /* Main.storyboard */,
@@ -91,9 +92,16 @@
 				A0C1C2E21E09969B00A2D111 /* EatalyService.swift */,
 				A0C1C2E41E09972F00A2D111 /* Services.swift */,
 				A0C1C2E61E09975200A2D111 /* CategoryManager.swift */,
-				A0C1C2E81E09979800A2D111 /* Category.swift */,
 			);
 			name = "Connection classes";
+			sourceTree = "<group>";
+		};
+		E1A25DC71E9659DC00CB703D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A0C1C2E81E09979800A2D111 /* Category.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +131,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = xamp;
 				TargetAttributes = {
 					A0C1C2CB1E0993A800A2D111 = {
@@ -221,6 +229,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -271,6 +280,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -339,6 +349,7 @@
 				A0C1C2E01E0993A800A2D111 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

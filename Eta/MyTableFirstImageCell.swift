@@ -7,3 +7,8 @@
 //
 
 import Foundation
+import UIKit
+
+class MyTableFirstImageCell: UITableViewCell {
+    @IBOutlet weak var bigImg: UIImageView!
+}
