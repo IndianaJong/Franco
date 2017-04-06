@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import UIKit
+
+class MyTableSecondImageCell: UITableViewCell {
+    @IBOutlet weak var firstSmallImg: UIImageView!
+    @IBOutlet weak var secondSmallImg: UIImageView!
+}

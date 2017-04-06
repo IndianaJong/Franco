@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class ViewController: UIViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class MyViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var myTable: UITableView! {
         didSet {
@@ -37,12 +37,12 @@ class ViewController: UIViewController: UIViewController, UITableViewDataSource,
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //ogni riga che succede
         if(indexPath.row==0){
-            let cell = tableView.dequeueReusableCell(withIdentifier: "ImgMidBig", for: indexPath) as! MyTableImageCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "ImgBig", for: indexPath) as! MyTableFirstImageCell
             /*let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "ImgMidBig")*/
             //  myTable.rowHeight = 200.0
             return cell
         } else if(indexPath.row==1){
-            let cell = tableView.dequeueReusableCell(withIdentifier: "ImgLittle", for: indexPath) as! SecondRowCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "ImgLittle", for: indexPath) as! MyTableSecondImageCell
             /*let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "ImgLittle")*/
             //myTable.rowHeight = 120.0
             return cell
@@ -70,15 +70,11 @@ class ViewController: UIViewController: UIViewController, UITableViewDataSource,
     
 }
 
-extension FirstListTableView: CategoryManagerDelegate {
+extension MyViewController: CategoryManagerDelegate {
     
     func didLoadData() {
         myTable.reloadData()
     }
     
-}
-
-
-
 }
 

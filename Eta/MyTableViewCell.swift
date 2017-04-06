@@ -7,3 +7,10 @@
 //
 
 import Foundation
+import UIKit
+
+class MyTableViewCell: UITableViewCell {
+    @IBOutlet weak var myLabel: UILabel!
+    let icon: UIImage? = nil
+    let arrowicon: UIImage? = nil
+}
